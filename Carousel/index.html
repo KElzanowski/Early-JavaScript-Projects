@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Image Carousel</title>
+</head>
+<body>
+    <!-- All divs and classes to be used in JavaScript to function the carousel. -->
+    <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden">
+            <img src="/Images/Left Button.webp">
+        </button>
+        <div class="carousel__track-container">
+            <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                    <img class="carousel__image" src="/Images/Shaping Connections 1.webp">
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="/Images/Shaping Connections 2.webp">
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="/Images/Shaping Connections 3.webp">
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="/Images/Shaping Connections 4.webp">
+                </li>
+            </ul>
+            <!-- Unordeded list containing list items as images in a carousel. -->
+        </div>
+        <button class="carousel__button carousel__button--right">
+            <img src="/Images/Right Button.webp">
+        </button>
+        <!-- Left and right arrow buttons with double hyphens to show it will form an action. -->
+    </div>
+    <script src="/JS/carousel.js"></script>
+</body>
+</html>
